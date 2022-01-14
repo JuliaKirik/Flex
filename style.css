@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin: 0;
+}
+div.name {
+    width: 22vw;
+    height: 80vh;
+    box-shadow: 0 0 8px gray;
+    padding: 30px;
+    text-align: center;
+}
+.contributions {
+    box-shadow: 0 0 8px gray;
+    width: 33%;
+    height: 30vh;
+    text-align: center;
+}
+.followers {
+    box-shadow: 0 0 8px gray;
+    width: 33%;
+    text-align: center;
+}
+.repositories {
+    box-shadow: 0 0 8px gray;
+    width: 33%;
+    text-align: center;
+}
+.about {
+    box-shadow: 0 0 8px gray;
+    height: 47vh;
+    padding: 10px;
+    text-align: justify;
+}
+.right {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    gap: 20px;
+}
+h1 {
+    margin: 0;
+}
+p.number {
+    color: green;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+p.discr {
+    color: gray;
+}
+h4 {
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+}
