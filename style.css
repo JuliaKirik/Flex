@@ -18,23 +18,19 @@ div.name {
     height: 80vh;
     box-shadow: 0 0 8px gray;
     padding: 30px;
-    text-align: center;
 }
 .contributions {
     box-shadow: 0 0 8px gray;
     width: 33%;
     height: 30vh;
-    text-align: center;
 }
 .followers {
     box-shadow: 0 0 8px gray;
     width: 33%;
-    text-align: center;
 }
 .repositories {
     box-shadow: 0 0 8px gray;
     width: 33%;
-    text-align: center;
 }
 .about {
     box-shadow: 0 0 8px gray;
@@ -46,6 +42,10 @@ div.name {
     display: flex;
     gap: 20px;
     flex-direction: column;
+    height: 80vh;
+}
+.left {
+    height: 80vh;
 }
 .top {
     display: flex;
