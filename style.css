@@ -50,6 +50,7 @@ div.name {
 .top {
     display: flex;
     gap: 20px;
+    height: 33vh;
 }
 h1 {
     margin: 0;
